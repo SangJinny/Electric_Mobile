@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+   	android:background="#FFFFFF"
+   	android:gravity="center" >
+
+    <Button
+        android:id="@+id/pi_graph"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="200dp"
+        android:background="@drawable/pi_button" />
+
+    <Button
+        android:id="@+id/bar_graph"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="200dp"
+        android:background="@drawable/bar_button" />
+
+</LinearLayout>
